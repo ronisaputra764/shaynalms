@@ -31,7 +31,7 @@ export default function SignIn() {
 
         // Jika berhasil
         setError("");
-        navigate("/");
+        navigate("/home");
     };
 
     return (

@@ -6,7 +6,7 @@ export default function ManageCourseMateri() {
             <aside className="sidebar-container fixed h-[calc(100vh-20px)] w-full max-w-[280px] my-[10px] ml-[10px] bg-[#060A23] overflow-hidden flex flex-1 rounded-[20px]">
                 <div className="scroll-container flex w-full hide-scrollbar">
                     <nav className="flex flex-col w-full h-fit p-[30px] gap-10 z-10">
-                        <Link to={'/'}>
+                        <Link to={'/home'}>
                             <img src="assets/images/logos/logo.svg" alt="logo" />
                         </Link>
                         <ul className="flex flex-col gap-4">
@@ -14,7 +14,7 @@ export default function ManageCourseMateri() {
                                 GENERAL
                             </p>
                             <li>
-                                <Link to={'/'}>
+                                <Link to={'/home'}>
                                     <div className="flex items-center gap-3 w-full rounded-full border p-[14px_20px] transition-all duration-300 hover:bg-[#662FFF] hover:border-[#8661EE] hover:shadow-[-10px_-6px_10px_0_#7F33FF_inset] bg-[#070B24] border-[#24283E] shadow-[-10px_-6px_10px_0_#181A35_inset]">
                                         <img
                                             src="assets/images/icons/3dcube-white.svg"
